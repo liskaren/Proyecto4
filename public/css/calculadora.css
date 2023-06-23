@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(209, 214, 219);
+}
+main {
+  padding: 15px;
+}
+
+#Sec1 {
+  margin-bottom: 30px;
+  background-image: url(../img/HomeImg.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+#Sec1 img {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+#Sec2 {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: rgb(112, 124, 149);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#Sec2 div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#Sec2 div:nth-child(1) p {
+  background-color: #373c41;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+#Sec2 > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #373c41;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgb(58, 58, 58);
+  margin-bottom: 40px;
+}
+
+#Sec2 div:nth-child(2) h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-shadow: 0px 3px 16px rgb(58, 58, 58);
+  color: white;
+}
+
+#Sec2 div:nth-child(2) p {
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+#Sec2 div:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#Sec2 div:nth-child(3) div {
+  display: flex;
+  gap: 15px;
+}
+
+#Sec2 div:nth-child(3) div img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#Arroz {
+  border: 2px solid rgb(78, 77, 77);
+}
+
+#Sec2 button {
+  border: none;
+  background-color: rgb(85, 106, 52);
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+nav {
+  background-color: black;
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  height: 30%;
+}
+
+nav h2 {
+  color: white;
+}
+
+nav div {
+  display: flex;
+  gap: 20px;
+}
+nav div a {
+  text-decoration: none;
+  color: rgb(9, 8, 8);
+  gap: 50px;
+}
