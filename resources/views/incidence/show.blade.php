@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('template_title')
-    {{ $incidence->name ?? "{{ __('Show') Incidence" }}
+    {{ $incidence->name ?? "{{ __('Mostrar') Incidence" }}
 @endsection
 
 @section('content')
@@ -11,15 +11,15 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="float-left">
-                            <span class="card-title">{{ __('Show') }} Incidence</span>
+                            <span class="card-title">{{ __('Mostrar') }} Incidence</span>
                         </div>
                         <div class="float-right">
-                            <a class="btn btn-primary" href="{{ route('incidences.index') }}"> {{ __('Back') }}</a>
+                            <a class="btn btn-primary" href="{{ route('incidences.index') }}"> {{ __('Regresar') }}</a>
                         </div>
                     </div>
 
                     <div class="card-body">
-                        
+
                         <div class="form-group">
                             <strong>Discription:</strong>
                             {{ $incidence->Discription }}

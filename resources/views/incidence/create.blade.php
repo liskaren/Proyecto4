@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('template_title')
-    {{ __('Create') }} Incidence
+    {{ __('Crear') }} Incidence
 @endsection
 
 @section('content')
@@ -13,7 +13,7 @@
 
                 <div class="card card-default">
                     <div class="card-header">
-                        <span class="card-title">{{ __('Create') }} Incidence</span>
+                        <span class="card-title">{{ __('Crear') }} Incidence</span>
                     </div>
                     <div class="card-body">
                         <form method="POST" action="{{ route('incidences.store') }}"  role="form" enctype="multipart/form-data">

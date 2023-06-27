@@ -13,12 +13,12 @@
                         <div style="display: flex; justify-content: space-between; align-items: center;">
 
                             <span id="card_title">
-                                {{ __('Order') }}
+                                {{ __('Orden') }}
                             </span>
 
                              <div class="float-right">
                                 <a href="{{ route('orders.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
-                                  {{ __('Create New') }}
+                                  {{ __('Crear Nuevo') }}
                                 </a>
                               </div>
                         </div>
@@ -35,7 +35,7 @@
                                 <thead class="thead">
                                     <tr>
                                         <th>No</th>
-                                        
+
 										<th>Number Line</th>
 										<th>Order Details</th>
 										<th>Specifications</th>
@@ -48,9 +48,10 @@
                                     @foreach ($orders as $order)
                                         <tr>
                                             <td>{{ ++$i }}</td>
-                                            
+
 											<td>{{ $order->number_line }}</td>
-											<td>{{ $order->Order details }}</td>
+											<td>{{ $order->Order_details }}</td>
+
 											<td>{{ $order->Specifications }}</td>
 											<td>{{ $order->products_id }}</td>
 

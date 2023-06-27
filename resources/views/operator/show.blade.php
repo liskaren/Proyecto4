@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('template_title')
-    {{ $operator->name ?? "{{ __('Show') Operator" }}
+    {{ $operator->name ?? "{{ __('Mostrar') Operator" }}
 @endsection
 
 @section('content')
@@ -11,15 +11,15 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="float-left">
-                            <span class="card-title">{{ __('Show') }} Operator</span>
+                            <span class="card-title">{{ __('Mostrar') }} Operator</span>
                         </div>
                         <div class="float-right">
-                            <a class="btn btn-primary" href="{{ route('operators.index') }}"> {{ __('Back') }}</a>
+                            <a class="btn btn-primary" href="{{ route('operators.index') }}"> {{ __('Atras') }}</a>
                         </div>
                     </div>
 
                     <div class="card-body">
-                        
+
                         <div class="form-group">
                             <strong>Name:</strong>
                             {{ $operator->name }}

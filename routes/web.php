@@ -45,7 +45,6 @@ Route:: resource('plants',PlantController::class);
 
 Route:: resource('productions',ProductionController::class);
 
-
 Route:: resource('incidencies',IncidenceController::class);
 
 Route:: resource('records',RecordController::class);
